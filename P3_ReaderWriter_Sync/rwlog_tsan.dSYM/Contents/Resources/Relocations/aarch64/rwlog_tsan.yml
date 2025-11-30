@@ -1,0 +1,23 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     rwlog_tsan
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100001D10, symSize: 0x7F0 }
+  - { offsetInCU: 0x9C, offset: 0x9C, size: 0x8, addend: 0x0, symName: _stop_flag, symObjAddr: 0x58A8, symBinAddr: 0x100008140, symSize: 0x0 }
+  - { offsetInCU: 0x316, offset: 0x316, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100001D10, symSize: 0x7F0 }
+  - { offsetInCU: 0xE6F, offset: 0xE6F, size: 0x8, addend: 0x0, symName: _print_usage, symObjAddr: 0xD50, symBinAddr: 0x100002A60, symSize: 0x54 }
+  - { offsetInCU: 0xE94, offset: 0xE94, size: 0x8, addend: 0x0, symName: _handle_sigint, symObjAddr: 0x7F0, symBinAddr: 0x100002500, symSize: 0x34 }
+  - { offsetInCU: 0xEC2, offset: 0xEC2, size: 0x8, addend: 0x0, symName: _writer_main, symObjAddr: 0x824, symBinAddr: 0x100002534, symSize: 0x2DC }
+  - { offsetInCU: 0x10A6, offset: 0x10A6, size: 0x8, addend: 0x0, symName: _reader_main, symObjAddr: 0xB00, symBinAddr: 0x100002810, symSize: 0x250 }
+  - { offsetInCU: 0x26, offset: 0x1273, size: 0x8, addend: 0x0, symName: _rwlog_create, symObjAddr: 0x0, symBinAddr: 0x100002AC8, symSize: 0x124 }
+  - { offsetInCU: 0x3F, offset: 0x128C, size: 0x8, addend: 0x0, symName: _monitor, symObjAddr: 0x2A30, symBinAddr: 0x100008148, symSize: 0x0 }
+  - { offsetInCU: 0x31A, offset: 0x1567, size: 0x8, addend: 0x0, symName: _rwlog_create, symObjAddr: 0x0, symBinAddr: 0x100002AC8, symSize: 0x124 }
+  - { offsetInCU: 0x460, offset: 0x16AD, size: 0x8, addend: 0x0, symName: _rwlog_destroy, symObjAddr: 0x124, symBinAddr: 0x100002BEC, symSize: 0xC0 }
+  - { offsetInCU: 0x4C5, offset: 0x1712, size: 0x8, addend: 0x0, symName: _rwlog_begin_read, symObjAddr: 0x1E4, symBinAddr: 0x100002CAC, symSize: 0xC4 }
+  - { offsetInCU: 0x55B, offset: 0x17A8, size: 0x8, addend: 0x0, symName: _rwlog_snapshot, symObjAddr: 0x2A8, symBinAddr: 0x100002D70, symSize: 0x130 }
+  - { offsetInCU: 0x637, offset: 0x1884, size: 0x8, addend: 0x0, symName: _rwlog_end_read, symObjAddr: 0x3D8, symBinAddr: 0x100002EA0, symSize: 0xC8 }
+  - { offsetInCU: 0x692, offset: 0x18DF, size: 0x8, addend: 0x0, symName: _rwlog_begin_write, symObjAddr: 0x4A0, symBinAddr: 0x100002F68, symSize: 0xF8 }
+  - { offsetInCU: 0x6D4, offset: 0x1921, size: 0x8, addend: 0x0, symName: _rwlog_append, symObjAddr: 0x598, symBinAddr: 0x100003060, symSize: 0x180 }
+  - { offsetInCU: 0x763, offset: 0x19B0, size: 0x8, addend: 0x0, symName: _rwlog_end_write, symObjAddr: 0x718, symBinAddr: 0x1000031E0, symSize: 0xA8 }
+  - { offsetInCU: 0x7C6, offset: 0x1A13, size: 0x8, addend: 0x0, symName: _rwlog_wake_all, symObjAddr: 0x7C0, symBinAddr: 0x100003288, symSize: 0x80 }
+...

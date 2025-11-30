@@ -1,4 +1,8 @@
+.vscode
+.DS_Store
+
 sshell
 filecopy
 log.txt
-mthread
+
+Examples/
